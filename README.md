@@ -33,4 +33,4 @@ Jest
 
 If you have any questions about this repository, open an issue or contact me at jthnguyen9909@gmail.com. You can find more of my work at [jthnguyen9909](https://github.com/jthnguyen9909).
 
-![Alt text](/assets/images/screenshot.png?raw=true "screenshot")
+![Alt text](/dist/images/screenshot.png?raw=true "screenshot")
