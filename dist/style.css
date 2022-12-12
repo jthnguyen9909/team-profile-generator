@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+header {
+  font-size: 3rem;
+}
+
+
+body {
+  background: linear-gradient(0deg, rgb(100, 100, 100) 0%, rgb(66, 66, 66) 10%);
+}
+
+.navbar {
+  text-align: center;
+  background-color: rgb(43, 72, 255);
+  color:white;
+  padding: 2% 0%;
+}
+
+.flex-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  align-content:center;
+}
+
+.card {
+  background-color: aliceblue;
+  margin:3% 5%;
+  border: 3px solid black;
+  border-radius:5px;
+  padding: 1%;
+  font-size: 1.3rem;
+  line-height: 2;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+.card-header {
+  text-align: center;
+  font-size: 2rem;
+  line-height:1.5;
+  padding-bottom:5px;
+}
+
+.card-section li {
+  background-color:rgba(240, 128, 128, 0.7);
+  border:1px solid black;
+  padding: 0 10px;
+  font-weight:bold;
+}
+
+.card-section li:nth-child(even) {
+  background-color: rgba(240, 248, 255, 0.7);
+}
+
+.engineer-card h3 {
+color:rgb(191, 169, 0);
+}
+
+.manager-card h3 {
+color:rgb(148, 20, 195);
+}
+
+.intern-card h3 {
+color:rgb(18, 16, 184);
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: rgb(0, 48, 222);
+}
+
